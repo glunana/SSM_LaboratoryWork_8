@@ -15,10 +15,11 @@ def main():
     nonterminal_symbols = {'S', 'A', 'B'}
 
     print("L(G)={2^(2n) 1^(2n), n=0,1,2...}")
-    print("P={S→AASBB, S→Λ, A→1, B→2}")
     print("G={V, T, S, P}")
     print("V={1, 2, A, B, S}")
     print("T={1, 2}")
+    print('S0 – початковий елемент')
+    print("P={S→AASBB, S→Λ, A→1, B→2}")
 
     for n in range(3):  # Змінив на range(3), щоб вивести для n=0, 1, 2
         print("n =", n)
